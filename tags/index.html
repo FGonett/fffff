@@ -171,6 +171,16 @@
 </script>
 
     
+                <link rel="stylesheet" href="/css/waline.css">
+                <div id="tcomment"></div>
+                <script type="module">
+                    import { init } from '/js/waline.js';
+                
+                    init(Object.assign(JSON.parse(`{"cdn":{"css":"/css/waline.css","js":"/js/waline.js"},"serverURL":"https://comment.qyliu.top/"}`),
+                        { el: '#tcomment',dark:'html[data-theme="dark"]' }
+                    ));
+                </script>
+                
                     
               <br>
               <span></span>
