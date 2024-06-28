@@ -1,3 +1,3 @@
-var posts=["2024/06/24/hello-world/","2024/06/24/“第一篇文章”/"];function toRandomPost(){
+var posts=["posts/4a17b156.html","posts/679efaa8.html"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
